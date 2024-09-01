@@ -1,0 +1,10 @@
+#libraries.txt
+
+
+OpenAI
+Tkinter
+cv2
+sys
+os
+pydub
+ffmpeg
