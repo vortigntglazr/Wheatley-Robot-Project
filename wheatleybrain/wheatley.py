@@ -1,3 +1,4 @@
+# wheatley.py
 # basic import to add the api
 from openai import OpenAI
 import os
@@ -8,7 +9,7 @@ MODEL = "gpt-4o-mini"  # using gpt-4o-mini
 
 
 # creating a "brain" instance to loop so that the query doesn't end as soon as the first prompt has gone thru
-def brain():
+def brain() -> object:
     print("Welcome to Aperture Science, I am Wheatley. What is your query?")
     while True:  # loop de loop
         PROMPT = input("> ")  # prompt
